@@ -37,5 +37,4 @@ server.use(router);
 // 9. Iniciamos el servidor en el puerto definido y mostramos un mensaje en consola.
 //    Esto nos ayuda a confirmar que el servidor está corriendo correctamente.
 server.listen(PORT, () => {
-console.log(`JSON Server está corriendo en el puerto ${PORT}`)
 });
